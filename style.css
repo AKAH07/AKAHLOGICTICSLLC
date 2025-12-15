@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #222;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+main {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+/* Logo */
+.logo {
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Links */
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+a:hover {
+    color: #7a00cc;
+}
+
+/* Buttons */
+button, .btn {
+    background-color: #8a2be2;
+    color: #fff !important;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover, .btn:hover {
+    background-color: #6a1bb7;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a { color: #fff; }
+
+/* Responsive Text */
+@media (max-width: 768px) {
+    h1 { font-size: 1.8em; }
+}
+
+/* Hero background section */
+.hero-bg {
+    background-image: url('images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 60px 15px;
+    text-align: center;
+}
